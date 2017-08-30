@@ -1,3 +1,4 @@
+'use strict';
 const appInsights = require('applicationinsights');
 appInsights.setup('3de3de4b-5e14-47ef-801f-9d82e4e8c29c')
     .setAutoDependencyCorrelation(false)
